@@ -70,3 +70,10 @@ nav li ul a:hover {
 .cf {
     zoom:1;
 }​
+#main {
+    position:relative;
+    text-align:left;
+    width:65%;
+    top:auto;
+    left:auto;
+}

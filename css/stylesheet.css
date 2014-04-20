@@ -1,6 +1,24 @@
+#top {
+    width: 100%;
+    height: 10%;
+}
+#topbar {
+    width:80%;
+    height:250px;
+}
+#main {
+    width: 70%;
+    float: left;
+    padding: 7px;
+    padding-top: 0px;
+    overflow: hidden;
+}
+
+/* * * * * * * * * * * * * * * * * * * */
+
 nav ul {
-	-webkit-font-smoothing:antialiased;
-	text-shadow:0 1px 0 #FFF;
+    -webkit-font-smoothing:antialiased;
+    text-shadow:0 1px 0 #FFF;
     background: #ddd;
     list-style: none;
     margin: 0;
@@ -70,10 +88,3 @@ nav li ul a:hover {
 .cf {
     zoom:1;
 }​
-#main {
-    position:relative;
-    text-align:left;
-    width:65%;
-    top:auto;
-    left:auto;
-}

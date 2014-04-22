@@ -1,5 +1,8 @@
 .sprite {
-    position: absolute;
+    position: relative;
+    vertical-align: center;
+    margin-left:auto;
+    margin-right:auto;
     zoom: 35%;
 }
 #top {

@@ -5,11 +5,22 @@
     margin-right:auto;
     zoom: 30%;
 }
+#content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    position: relative;
+}
+#content-header {
+    font-size: 35px;
+    text-align: left;
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+}
 #top {
-    font-size: 50px; 
+    font-size: 55px; 
     text-align: center;
     position: relative; 
-    font-family:'Varela Round', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
 /* * * * * * * * * * * * * * * * * * * */
@@ -36,7 +47,7 @@ nav a {
     background: #ddd;
     color: #444;
     display: block;
-    font: bold 16px/50px sans-serif;
+    font: 20px/50px 'Montserrat', sans-serif;
     padding: 0 25px;
     text-align: center;
     text-decoration: none;

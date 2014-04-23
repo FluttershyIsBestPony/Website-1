@@ -5,6 +5,12 @@
     margin-right:auto;
     zoom: 30%;
 }
+#footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    float: right;
+    position: relative;
+}
 #content {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
@@ -21,6 +27,14 @@
     text-align: center;
     position: relative; 
     font-family: 'Varela Round', sans-serif;
+}
+#topjourney {
+    font-size: 55px;
+    text-align: center;
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+    background-image:url('../resources/JOURNEY_BACKGROUND.png');
+    background-size:50%;
 }
 
 /* * * * * * * * * * * * * * * * * * * */

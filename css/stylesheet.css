@@ -5,6 +5,21 @@
     margin-right:auto;
     zoom: 30%;
 }
+.GitAnim{
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+		  margin: auto;
+}
+.GitAnim:hover{
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
 #footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;

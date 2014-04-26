@@ -24,12 +24,12 @@
     transition: 0.5s;
 }
  
-a:hover {
+/*a:hover {
     -webkit-transform: scale(1.5,1.5);
     -moz-transform: scale(1.5,1.5);
     -o-transform: scale(1.5,1.5);
     -ms-transform: scale(1.5,1.5);
-    transform: scale(1.5,1.5);
+    transform: scale(1.5,1.5);*/
 }
 .GitAnim {
   -webkit-transition: all 0.5s ease;

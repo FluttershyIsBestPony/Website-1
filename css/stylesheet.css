@@ -5,7 +5,33 @@
     margin-right:auto;
     zoom: 30%;
 }
-.GitAnim{
+.LinkAnim {
+    display: inline-block;
+    color: #03c;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+.LinkAnim:hover {
+    display: inline-block;
+    color: #03c;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+ 
+a:hover {
+    -webkit-transform: scale(1.5,1.5);
+    -moz-transform: scale(1.5,1.5);
+    -o-transform: scale(1.5,1.5);
+    -ms-transform: scale(1.5,1.5);
+    transform: scale(1.5,1.5);
+}
+.GitAnim {
   -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
        -o-transition: all 0.5s ease;
@@ -13,7 +39,7 @@
           transition: all 0.5s ease;
 		  margin: auto;
 }
-.GitAnim:hover{
+.GitAnim:hover {
   -webkit-transform: rotate(-10deg);
      -moz-transform: rotate(-10deg);
        -o-transform: rotate(-10deg);
